@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgba(228, 216, 216, 0.822);
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 116vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    margin: 15px;
+}
+
+.about {
+    margin-bottom: 25px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skillsInfo{
+}
+
+.skills{
+    width: 255px;
+    height: 6px;
+    background-color: red;
+}
+
+

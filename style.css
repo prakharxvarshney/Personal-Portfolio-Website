@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgba(228, 216, 216, 0.822);
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 116vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* b    ackground-color: aqua; */
+    height: 58vh;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about{
+    font-size: 30px;
+}
+
+.moreabout{
+    font-size: 15px;
+    margin-top: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.buttons {
+    margin: 27px -10px;
+}
+
+.buttons button{
+    padding: 5px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.devPic img{
+    height: 58vh    ;
+}
